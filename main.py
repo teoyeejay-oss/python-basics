@@ -1,23 +1,11 @@
-#string
-name='Teo yee jay'
-print(f'my name is {name}')
-school_name='tarumt'
-print(f"now I am study in {school_name}")
+#madlib game
+name = input(f"please enter a random name: ")
+name2 = input(f"please enter another random name: ")
+place = input (f"please enter a randome place that you like: ")
+verb = input(f"please enter a random word (verb): ")
+verb2 = input(f"please enter another random word (verb): ")
 
-#integer
-height=171
-print(f'And my height is {height}cm')
+print(f"{name} today go to {place} and saw {name2} at there.")
+print(f"After school, {name} go back home to {verb} and {verb2}")
 
-
-#float
-average_score=41.5
-print(f"My average score in secondary school is {average_score}")
-
-
-#boolean
-is_cs_student = False
-if is_cs_student:
-    print('I am also is a cs student')
-else:
-    print('But I am not a cs student')
 
